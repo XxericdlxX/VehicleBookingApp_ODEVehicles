@@ -1,0 +1,94 @@
+= SPRINT - 3
+:toc:
+:toc-title: Índex de continguts
+
+== 1. Planificació Inicial
+
+=== 1.1. Planificació (Inicial)
+==== Board inicial — Eric Delgado López
+image::images/Imatges Sprint 3/BoardInicial_Eric_Delgado_Lopez_SPRINT3.png[Board inicial — Eric Delgado López]
+
+==== Board inicial — Oriol Jové Naranjo
+image::images/Imatges Sprint 3/PrincipiSprint3Oriol.PNG[Board inicial — Oriol Jové Naranjo]
+
+==== Board inicial — Darren Escosio Leones
+image::images/Imatges Sprint 3/BoardInicial_Darren3.png[Board inicial — Darren Escosio Leones]
+
+== 2. Daily Stand Ups
+
+=== DIA 1 - 27/02
+[cols="1,2,2,2,1", options="header"]
+|===
+| Membre | Què va fer ahir | Què farà avui | Problemes | Hores
+| Eric Delgado |Acabar coses per poder fer la correció de l'SPRINT 2 |Solucionar Errors que surtin a la correció | Que hi hagi errors al dia de l'Sprint  | 3h
+| Oriol Jové | | Correcció d'errors que apareguin a la revisió del sprint 2 i acabar la funcionalitat de llistar les reserves propies | Vaig tenir un problema amb el git que no es va fer bé el merge i faltaben canvis de la meva branca i vaig haver d'arreglar-lo | 4h + 3h
+| Darren Escosio | Deixar les coses preparades per a la correció del Sprint 2 | Deixar les coses preparades per a la correció del Sprint 2 |-|3h
+|===
+
+=== DIA 2 - 02/03
+[cols="1,2,2,2,1", options="header"]
+|===
+| Membre | Què va fer ahir | Què farà avui | Problemes | Hores
+| Eric Delgado |Vaig començar a solucionar l'error que les dades que s'editaven en la part Front-end s'editaven a la base de dades|Continuaré solucionant l'error del dia 27/02 |Que hi hagi errors al dia de l'Sprint, és a dir que no executi | 4h
+| Oriol Jové | Acabar la funcionalitat de llistar reserves propies | Començar a fer la funcionalitat de ordenar les reserves per dates d'aquestes i veure detall d'una reserva  | | 6h + 2h
+| Darren Escosio | Corregir els problemes que van surgir durant la correcció del sprint 2|Corregir els problemes que van surgir durant la correcció del sprint 2 |Durant un merge, el codi al develop de la meva part va deixar de funcionar |6h 
+|===
+
+=== DIA 3 - 03/03
+[cols="1,2,2,2,1", options="header"]
+|===
+| Membre | Què va fer ahir | Què farà avui | Problemes | Hores
+| Eric Delgado |Vaig començar a solucionar l'error que les dades que s'editaven en la part Front-end s'editaven a la base de dades|Acabaré el RF04-Editar perfil usuari, la part de front-end i la part del Back-end |Que hi hagi errors al dia de l'Sprint, és a dir que no executi | 1h + 3h
+| Oriol Jové | Les funcionalitats de ordenar per dates les reserves i veure el detall d'una completes | Fer la funcionalitat d'anul·lar reserves | A l'hora d'anul·lar una reserva el vehicle no tornar a estar disponible | 2h
+| Darren Escosio | Llistar els errors i començar a millorar el codi de llistar vehicles perquè s'actualitzi automàticament cuan hi hagi canvis a la base de dades| -| -| -
+|===
+
+=== DIA 4 - 04/03
+[cols="1,2,2,2,1", options="header"]
+|===
+| Membre | Què va fer ahir | Què farà avui | Problemes | Hores
+| Eric Delgado |Vaig acabar el RF04-Editar perfil usuari, la part de front-end i la part del Back-end |Començaré la part de Front-end del RF05-Logout|Que hi hagi errors al dia de l'Sprint, és a dir que no executi | 0h + 2h
+| Oriol Jové | Començar a fer la funcionalitat d'anul·lar reserva | Acabar la funcionalitat d'anul·lar les reserves i millorar la funcionaltat d'alta reserva que no estaba molt ben feta(només cumplia amb els requisits) |  | 3h + 3h
+| Darren Escosio | -| Experimentar i acabar el llistat de vehicles i detalls dels vehicles|Va haver un merge catastrofic ja que els fitchers on estava treballant van ser modificats. Vaig hver de crear multiples branques fins que vaig poder combinar els codis problematics en branques experiment | 3 + 3h
+|===
+
+=== DIA 5 - 05/03
+[cols="1,2,2,2,1", options="header"]
+|===
+| Membre | Què va fer ahir | Què farà avui | Problemes | Hores
+| Eric Delgado |Vaig començar el RF05, la part de Front-end |Acabaré  la part de Front-end del RF05-Logout i començaré i acabaré el RF03 el front-end|Que hi hagi errors al dia de l'Sprint, és a dir que no executi | 4h + 4h 
+| Oriol Jové | Acabar anul·lar reserves i millorar alta reserva | Pasaré tots els text harcodejats a String i fer laas traduccions a CAT/ESP/ANG i cambiar l'icona de l'aplicació|  | 4h + 2h
+| Darren Escosio | Arreglar els errors i acabar el llistat de vehicles i detalls dels vehicles|Començar i acabar el registre de clients | cap|3 + 2h 
+|===
+
+== 3. Planificació Final
+
+=== 3.1. Planificació (Final de Sprint)
+
+==== Board Final — Eric Delgado López
+image::images/Imatges Sprint 3/BoardFinal_Eric_Delgado_Lopez_SPRINT3.png[Board Final — Eric Delgado López]
+
+==== Board Final — Oriol Jové Naranjo
+image::images/Imatges Sprint 3/BoardFinal_Oriol_SPRINT3.png[Board Final — Oriol Jové Naranjo]
+
+==== Board Final — Darren Escosio Leones
+image::images/Imatges Sprint 3/BoardFinal_Darren3.png[Board Final — Darren Escosio Leones]
+
+
+== 4. Retrospective Meeting
+
+
+[cols="1,4"]
+|===
+|Durant aquest sprint ens hem centrat principalment en la correcció d’errors detectats durant la revisió de l’sprint anterior i en la millora de diverses funcionalitats de l’aplicació. Hem treballat en aspectes com la gestió de reserves (llistat, ordenació per dates, detall i anul·lació), l’edició del perfil d’usuari, el logout i la millora del registre de clients. Paral·lelament, també s’han fet millores en el llistat i detall de vehicles i s’han introduït ajustos relacionats amb la internacionalització de l’aplicació i elements visuals.
+
+Un dels aspectes que més ha condicionat aquest sprint han estat els problemes amb el control de versions. En diversos moments s’han produït conflictes de merge que han provocat pèrdua temporal de canvis o errors en el codi integrat a la branca develop. En algun cas ha estat necessari crear branques experimentals o aplicar solucions alternatives per poder recuperar i integrar correctament el treball realitzat. Aquesta situació ens ha fet veure la importància de coordinar millor els canvis i revisar amb més cura el procés d’integració del codi.
+
+A nivell tècnic també han aparegut alguns problemes funcionals, com ara la disponibilitat dels vehicles després d’anul·lar una reserva o errors en l’edició de dades des del frontend que afectaven la base de dades. Tot i això, aquests problemes s’han anat resolent progressivament i han permès millorar la robustesa de les funcionalitats implementades.
+
+Malgrat les dificultats, el sprint ha estat positiu en termes de progrés. S’han completat diverses funcionalitats importants i s’ha avançat en la qualitat del codi i en la integració entre backend i frontend. També s’ha millorat la comprensió del funcionament del projecte i la manera de gestionar incidències tècniques durant el desenvolupament.
+
+De cara als següents sprints, l’equip considera necessari reforçar la coordinació en l’ús de Git, planificar millor les modificacions que afecten fitxers compartits i continuar realitzant proves funcionals de manera constant per detectar errors abans de les revisions. Amb aquestes millores, esperem poder treballar amb més estabilitat i eficiència en les pròximes iteracions.
+
+En conclusió, aquest sprint ha estat exigent però també molt útil per consolidar funcionalitats i millorar la nostra manera de treballar en equip. Tot i els problemes amb els conflictes de repositori i alguns errors tècnics, hem continuat avançant en el desenvolupament del projecte i hem adquirit més experiència en la gestió del desenvolupament col·laboratiu.|
+|===

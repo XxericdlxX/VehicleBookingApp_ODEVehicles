@@ -1,0 +1,117 @@
+= Documentació Tècnica
+:toc:
+:toc-title: Índex de continguts
+
+== 1. Justificació de decisions de disseny o implementació
+
+=== 1.1 Decisions d'arquitectura
+// Explicar decisions sobre arquitectura (per exemple: backend, estructura del projecte, etc.)
+
+=== 1.2 Decisions d'implementació
+// Explicar decisions preses durant el desenvolupament que no estaven especificades als requeriments
+
+
+== 2. Llista final de requeriments implementats
+
+=== 2.1 Requeriments funcionals implementats
+
+[cols="1,1,4"]
+|===
+| ID | Categoria | Descripció
+
+| RF01
+| Client
+| Login. El sistema ha de permetre que un usuari activat pugui iniciar sessió a l’aplicació amb el seu correu electrònic i contrasenya.
+
+| RF03
+| Client
+| Recuperar contrasenya. El sistema ha de permetre que l’usuari pugui recuperar la contrasenya en cas d’oblit.
+
+| RF04
+| Client
+| Editar perfil usuari. El sistema ha de permetre que l’usuari pugui modificar totes les dades del seu perfil, inclosa la seva foto i la seva documentació.
+
+| RF05
+| Client
+| Logout. El sistema ha de permetre que l’usuari pugui tancar la sessió.
+
+| RF50
+| Reserva
+| Alta de reserva. El sistema ha de permetre que el client pugui donar d’alta una nova reserva.
+
+| RF51
+| Reserva
+| Llistat reserves. El sistema ha de permetre que el client pugui llistar les reserves pròpies.
+
+| RF52
+| Reserva
+| Ordenar reserves per data inici. El sistema ha de permetre que el client pugui ordenar les reserves pròpies per data d’inici de la reserva ja sigui de manera ascendent o descendent.
+
+| RF53
+| Reserva
+| Veure el detall d’una reserva en una pantalla específica. El sistema de permetre que el client pugui veure tota la informació de la reserva pròpia seleccionada inclòs les dades del cotxe amb la foto en una pantalla independent de la pantalla anterior.
+
+| RF55
+| Reserva
+| Anul·lar reserva. L’aplicació ha de permetre anul·lar una reserva pròpia només abans que s'iniciï.
+
+| RF02
+| Client anònim
+| Registre. El sistema ha de permetre que una persona anònima pugui registrar-se com a usuari client per poder utilitzar l’app.
+
+| RF90
+| Client anònim
+| Llistar vehicles. El sistema ha de permetre que l’usuari pugui llistar els vehicles.
+
+| RF91
+| Client anònim
+| Veure el detall d’un vehicle. El sistema de permetre que l’usuari pugui veure tota la informació del vehicle seleccionat.
+
+| RF92
+| Client anònim
+| Ordenar vehicles per preu. El sistema ha de permetre que l’usuari pugui llistar els vehicles ordenats per preu de forma ascendent / descendent.
+
+| RF56
+| Client anònim
+| Consultar disponibilitat de vehicles per rang de dates. El sistema ha de permetre que l’usuari pugui consultar, en un determinat període, els vehicles que estiguin disponibles per a reservar.
+
+|===
+
+=== 2.2 Requeriments no implementats
+
+Durant el desenvolupament del projecte s’han pogut implementar tots els requeriments funcionals definits inicialment. Per tant, no ha quedat cap requeriment funcional sense implementar.
+
+Tot i així, a causa de les limitacions de temps durant els diferents sprints, no ha estat possible dedicar tot el temps desitjat a la millora d’alguns aspectes visuals de l’aplicació. En particular, ens hauria agradat dedicar més temps a polir el disseny de determinades pantalles, com ara la pantalla de crear una reserva, i millorar alguns elements de la interfície d’usuari per tal d’oferir una experiència d’ús encara més cuidada.
+
+Malgrat això, totes les funcionalitats previstes han estat implementades correctament i el sistema compleix amb els requeriments funcionals establerts en l’enunciat del projecte.
+
+== 3. Desviacions respecte a la planificació inicial
+
+Durant el desenvolupament del projecte no s’han produït canvis significatius respecte a la planificació inicial establerta a l’inici del projecte. Les tasques es van repartir entre els membres de l’equip des del principi i aquesta distribució s’ha mantingut al llarg dels diferents sprints.
+
+Cada membre de l’equip ha treballat principalment en les funcionalitats que s’havien assignat inicialment, fet que ha permès mantenir una organització estable del treball i seguir la planificació prevista.
+
+Tot i això, durant el desenvolupament sí que han aparegut algunes dificultats en el moment d’integrar el codi al repositori, especialment relacionades amb conflictes de *merge* entre diferents branques. Aquestes incidències han requerit dedicar temps addicional a la resolució de conflictes i a la coordinació entre membres de l’equip per assegurar que totes les funcionalitats funcionessin correctament un cop integrades.
+
+
+== 4. Incidències trobades durant el desenvolupament
+
+=== 4.1 Problemes tècnics
+// Errors tècnics, problemes amb frameworks, arquitectura, etc.
+
+=== 4.2 Problemes amb eines o entorn
+==== Conflictes de merge en el repositori
+
+Durant el desenvolupament del projecte s’han produït diversos conflictes de *merge* en el repositori Git. Aquests conflictes han aparegut principalment quan diferents membres de l’equip treballaven simultàniament en fitxers relacionats amb les mateixes funcionalitats.
+
+En alguns casos això ha provocat la necessitat de revisar manualment el codi i integrar els canvis per assegurar que totes les funcionalitats continuessin funcionant correctament. Tot i que aquestes incidències han requerit dedicar temps addicional, també han permès millorar la coordinació de l’equip i adquirir més experiència en la gestió del control de versions.
+
+
+==== Problemes amb l’emulador d’Android
+
+Durant el desenvolupament de l’aplicació també s’han produït incidències amb l’emulador d’Android utilitzat per provar l’aplicació. En diverses ocasions l’emulador es quedava congelat o deixava de respondre correctament.
+
+Quan això passava, era necessari reiniciar completament l’emulador mitjançant un *cold boot* per tal que tornés a funcionar amb normalitat. Aquestes situacions han provocat petites interrupcions durant el desenvolupament, ja que obligaven a reiniciar l’entorn de proves abans de continuar treballant.
+
+=== 4.3 Altres incidències
+// Qualsevol altra incidència rellevant durant el projecte

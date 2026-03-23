@@ -1,0 +1,60 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Java / Maven / Gradle
+**/target/
+**/build/
+**/.gradle/
+*.log
+*.class
+
+# IDEs
+.idea/
+.idea/modules.xml
+.idea/libraries/
+.idea/caches/
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+*.iml
+*.ipr
+*.iws
+out/
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.apt_generated
+.sts4-cache
+nbproject/private/
+nbbuild/
+nbdist/
+dist/
+.nb-gradle/
+.vscode/
+
+# Kotlin / Android Studio
+**/.kotlin/
+
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub/
+coverage/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# Android / NDK
+**/local.properties
+**/captures/
+**/.cxx/
+**/externalNativeBuild/
+*.apk
+*.aab
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*

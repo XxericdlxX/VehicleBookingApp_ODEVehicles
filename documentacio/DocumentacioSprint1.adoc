@@ -1,0 +1,80 @@
+= SPRINT - 1
+:toc:
+:toc-title: Índex de continguts
+
+== 1. Planificació Inicial
+
+=== 1.1. Planificació (Inicial)
+==== Board inicial — Eric Delgado López
+image::images/board_inicial_eric_delgado_lopez_sprint1.png[Board inicial — Eric Delgado López]
+
+
+==== Board inicial — Oriol Jové Naranjo
+image::images/PrincipiSprint1Oriol.PNG[Board inicial — Oriol Jové Naranjo]
+
+
+==== Board inicial — Darren Escosio Leones
+image::images/BoardInicial_Darren.png[Board inicial - Darren Escosio Leones]
+
+
+
+== 2. Daily Stand Ups
+
+=== DIA 1 - 13/02
+[cols="1,2,2,2,1", options="header"]
+|===
+| Membre | Què va fer ahir | Què farà avui | Problemes | Hores
+| Eric Delgado | Es va fer teoria fins ahir |  Mirar l'enunciat i consultat dubtes, es va començar a organitzar els rols i la feina del grup | No hi ha molt temps per aquest sprint | 3h 
+| Oriol Jové | Es va fer teoria | Llegir l'enunciat i resoldre els dubtes que apereguin i organitzar el començament del projecte | El poc temps d'aquest sprint| 3h
+| Darren Escosio | Es va fer teoria | Mira l'enunciat i fer plans per començar el projecte | No ha hagut temps per fer molt | 3h
+|===
+
+=== DIA 2 - 17/02
+[cols="1,2,2,2,1", options="header"]
+|===
+| Membre | Què va fer ahir | Què farà avui | Problemes | Hores
+| Eric Delgado | Vaig llegir l'enunciat i vaig entendre gran part de l'enunciat | Realment no faré  res perque treballaré i descansaré per poder començar el projecte dimecres  | Tenir poc temps per  fer aquest sprint| 0h
+| Oriol Jové |Es va llegir l'enunciat i organitzar una mica la feina del projecte, creació del projecte al git amb tota la part de SCRUM| He llegit el document d'arquitectura per a Android i no he entes gaire | Aruitectura a Android | 2h
+| Darren Escosio | Llegir l'enunciat per entrendre-ho| Investigar i començar el AsciiDoc| Cap| 2h
+|===
+
+=== DIA 3 - 18/02
+[cols="1,2,2,2,1", options="header"]
+|===
+| Membre | Què va fer ahir | Què farà avui | Problemes | Hores
+| Eric Delgado |Vaig treballar i descansar |Organitzar-me amb el meu grup per saber que RF farè en aquest projecte i començar a fer alguna cosa de backend |Tenir poc temps per  fer aquest sprint | 2'30h + 5 h
+| Oriol Jové |Llegir el document d'arquitectura Android | Començar a fer funcions al backend de reserves | Cap | 3h + 2h
+| Darren Escosio | començar el AsciiDoc | Terminar la plantilla d'AsciiDoc i començar amb el backend i frontend de llistar vehicles a Android Studio| Cap| 3+1:30h
+|===
+
+=== DIA 4 - 19/02
+[cols="1,2,2,2,1", options="header"]
+|===
+| Membre | Què va fer ahir | Què farà avui | Problemes | Hores
+| Eric Delgado |Ahir vaig adelantar moltisim la part de backend i vaig afegir el javadoc de les noves clases | començar amb l'Android Studio Code a fer la part de presentació al client |Que surtin errors a l'últim moment  | 4H 
+| Oriol Jové | La creació de la funcionalitat al backend de crear reserves | La funcionalitat de llistar les reserves de cada client i pantalles a l'Android Studio | Cap  | 4h
+| Darren Escosio |Començar el backend i fontend de llistar vehicles | Completar el frontend de llistar vehicles a Android Studio i començar el frontend de veure detalls de vehicles | Cap | 4 + 1h
+|===
+
+== 3. Planificació Final
+
+=== 3.1. Planificació (Final de Sprint)
+
+==== Board final — Grup 3
+image::images/Board_Final_Grup3.png[Board final — Grup 3]
+
+== 4. Retrospective Meeting
+
+
+[cols="1,4"]
+|===
+|Durant aquest sprint inicial, l’equip ha centrat els seus esforços principalment en la comprensió de l’enunciat, la resolució de dubtes i l’organització interna del projecte. Els primers dies es van dedicar majoritàriament a la part teòrica i a l’anàlisi dels requisits, fet que ha permès establir una base comuna de treball. També s’ha iniciat la configuració del repositori amb l’estructura SCRUM corresponent i s’han començat a definir els rols i la distribució de tasques dins del grup.
+
+A partir del tercer dia, el desenvolupament tècnic ha començat a avançar de manera més significativa. S’han implementat les primeres funcionalitats del backend relacionades amb reserves, així com el llistat de vehicles. Paral·lelament, s’ha iniciat el desenvolupament de la part d’Android, tant en la capa de presentació com en la integració amb el backend. També s’ha treballat en la documentació mitjançant AsciiDoc i en la incorporació de comentaris Javadoc al codi.
+
+Tot i aquests avenços, el sprint ha estat condicionat pel temps limitat disponible, ja que hi ha hagut un dia festiu i altres compromisos personals i laborals que han reduït les hores efectives de desenvolupament. A més, han sorgit algunes dificultats tècniques, especialment en la comprensió de l’arquitectura d’Android i en la previsió d’errors durant la integració de funcionalitats.
+
+De cara als propers sprints, es considera necessari optimitzar millor el temps disponible, anticipar possibles dificultats tècniques i continuar consolidant la coordinació entre backend i frontend. També serà important avançar de manera progressiva en la documentació i mantenir una comunicació constant per evitar bloquejos.
+
+En conclusió, aquest sprint ha estat principalment d’organització i inici de desenvolupament. Malgrat el temps limitat, s’han establert les bases del projecte i s’han començat a implementar funcionalitats clau que permetran avançar amb més solidesa en les següents iteracions.|
+

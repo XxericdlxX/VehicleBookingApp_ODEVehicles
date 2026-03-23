@@ -1,0 +1,87 @@
+= SPRINT - 2
+:toc:
+:toc-title: Índex de continguts
+
+== 1. Planificació Inicial
+
+=== 1.1. Planificació (Inicial)
+==== Board inicial — Eric Delgado López
+image::images/Imatges Sprint 2/BoardInicial_Eric2.png[Board inicial — Eric Delgado López]
+==== Board inicial — Oriol Jové Naranjo
+image::images/Imatges Sprint 2/PrincipiSprint2Oriol.PNG[Board inicial — Oriol Jové Naranjo]
+
+==== Board inicial — Darren Escosio Leones
+image::images/Imatges Sprint 2/BoardInicial_Darren2.png[Board inicial - Darren Escosio Leones]
+
+
+== 2. Daily Stand Ups
+
+=== DIA 1 - 20/02
+[cols="1,2,2,2,1", options="header"]
+|===
+| Membre | Què va fer ahir | Què farà avui | Problemes | Hores
+| Eric Delgado | |Corregir errors que han surgit a la correcció del Sprint i organitzarme per el Sprint 2 | Que hi hagi molts conflictes alhora de fer el merge | 5h
+| Oriol Jové | | Corregir errors que han surgit a la correcció del Sprint i afegir les imatges del vehicle al backend i al front | Que no es veuen les imatges quan executa l'aplicació | 5h + 2h
+| Darren Escosio | Finalitzar el Sprint 1| Començar i fer el set up del AppNavigation con Jetpack Compose.| Vaig pasarme la majoria del temps aprenent Jetpack Compose| 6 + 2h 
+|===
+
+=== DIA 2 - 23/02
+[cols="1,2,2,2,1", options="header"]
+|===
+| Membre | Què va fer ahir | Què farà avui | Problemes | Hores
+| Eric Delgado |Vaig Corregir errors que han surgit a la correcció del Sprint i organitzarme per el Sprint 2 |Començar a fer el Login a la aplicació del frontend |Que hi hagi molts conflictes alhora de fer el merge | 4h + 2h
+| Oriol Jové | Corregir errors que havien aparegut a l'Sprint i començar amb implementació de les imatges dels vehicles | Acabar d'implementar les imatges dels vehicles | He tingut un problema amb el git al fer un merge i s'ha perdut tot el que hi havia fet de les imatges dels vehicles | 6h + 2h
+| Darren Escosio | Fer el set up del AppNavigation amb Jetpack Compose y modificar la MainActivity a Android Studio per fer-lo compatible| Intentar acabar el backend del RF90 i el frontend (Tasques separades)| He instalat Postman per poder analitzar millor les dades de les JSON files.| 6h
+|===
+
+=== DIA 3 - 24/02
+[cols="1,2,2,2,1", options="header"]
+|===
+| Membre | Què va fer ahir | Què farà avui | Problemes | Hores
+| Eric Delgado |Vaig començar a fer el Login a la aplicació del frontend |res |Que hi hagi molts conflictes alhora de fer el merge | 0h 
+| Oriol Jové | Acabar la implementació de les imatges al frontend | Començar amb la funciomaotat de crear una reserva d'un vehicle al front | La navegació entre les pantalles de crear la reserva | 2h
+| Darren Escosio |Res |Res |Cap | 0h
+|===
+
+=== DIA 4 - 25/02
+[cols="1,2,2,2,1", options="header"]
+|===
+| Membre | Què va fer ahir | Què farà avui | Problemes | Hores
+| Eric Delgado |res |Acabaré d'implementar el login a la aplicació del frontend | Que hi hagi molts conflictes alhora de fer el merge | 3h + 3h 
+| Oriol Jové | Començar la funcionalitat de crear una reserva  | Acabar la funcionalitat de reserva | No se on col·locar el botó per donar d'alta una reserva per a que la navegació sigui clara | 3h + 2h
+| Darren Escosio | Res|Afegir funcionalitat als botons per filtrar per matricula, preu i disponibilitat. Millora el frontend i afegir les traduccions per anglés, català i castellà | Va haber un merge conflict on vaig gran entre els meus canvis i els del Oriol, ja que va implementar la logica per mostrar imatges.| 3 + 2:30h
+|===
+
+=== DIA 5 - 26/02
+[cols="1,2,2,2,1", options="header"]
+|===
+| Membre | Què va fer ahir | Què farà avui | Problemes | Hores
+| Eric Delgado |Vaig acabar d'implementar el login a la aplicació del frontend |Començar i acabar la implementació del login y editarPerfil de l'aplicació frontend | Els problemes dels merge (conflictes)| 4h + 5h 
+| Oriol Jové | Seguir amb la funcionalitat de crear una reserva | Acabar la funcionalitat de donar d'alta una reserva | La validació de les dates  | 4h + 2h
+| Darren Escosio |Acabar d'arreglar el els canvis del merge conflict amb un hotfix | Començar a fer l'apartat de registre i connectar els botons per a la página de registre | 4 + 1h | 
+|===
+
+== 3. Planificació Final
+
+=== 3.1. Planificació (Final de Sprint)
+
+==== Board final — Grup 3
+image::images/Imatges Sprint 2/BoardFinal2.png[Board inicial - Darren Escosio Leones]
+== 4. Retrospective Meeting
+
+
+[cols="1,4"]
+|===
+|Durant aquest sprint hem estat centrats principalment en la correcció d’errors trobats en l’sprint anterior i en l’inici del desenvolupament de funcionalitats del frontend, especialment el login, el registre i la creació de reserves. També hem treballat en la implementació de les imatges dels vehicles, la navegació amb Jetpack Compose i la millora del frontend amb filtres i traduccions.
+
+Un dels aspectes que més ha marcat aquest sprint han estat els conflictes de merge. En diversos moments, els canvis simultanis en funcionalitats relacionades (especialment en la gestió d’imatges i navegació) han provocat pèrdues de feina o necessitat de fer hotfixes. Això ens ha fet adonar que necessitem coordinar millor les branques i comunicar-nos abans de modificar parts sensibles del projecte. Tot i aquestes dificultats, hem après a gestionar millor els conflictes i a utilitzar eines com Postman per validar les dades del backend.
+
+A nivell tècnic, també hem trobat reptes importants, com la navegació entre pantalles en Android amb Jetpack Compose, la validació de dates en la creació de reserves i la correcta visualització de les imatges. En alguns dies la productivitat ha estat menor, ja sigui per bloquejos tècnics o per acumulació de problemes derivats dels conflictes de repositori.
+
+Malgrat tot, el sprint ha estat positiu en termes d’aprenentatge. Hem avançat en la integració entre backend i frontend, hem consolidat la funcionalitat de login i hem progressat en la creació de reserves. També hem millorat la nostra capacitat de resolució de problemes i d’adaptació davant errors inesperats.
+
+De cara als següents sprints, ens proposem millorar la coordinació en l’ús de Git, planificar millor les tasques que afecten fitxers compartits i comunicar amb més antelació els canvis importants. Considerem que, si millorem aquests aspectes organitzatius, podrem augmentar significativament la nostra eficiència i reduir el temps dedicat a solucionar conflictes.
+
+En conclusió, aquest sprint ha estat exigent. Tot i les dificultats tècniques i els conflictes de repositori, hem fet avenços rellevants i hem guanyat experiència que ens ajudarà a treballar de manera més coordinada i eficient en les properes iteracions.|
+|===
+

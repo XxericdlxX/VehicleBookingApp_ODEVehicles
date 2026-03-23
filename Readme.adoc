@@ -1,0 +1,76 @@
+# 🚗 Aplicació de Gestió de Vehicles i Reserves
+
+Aplicació mòbil desenvolupada per gestionar la consulta de vehicles i la creació de reserves de manera senzilla mitjançant una aplicació Android connectada a un backend.
+
+L’aplicació permet als usuaris registrar-se, iniciar sessió, consultar vehicles disponibles i gestionar les seves reserves directament des del dispositiu mòbil.
+
+---
+
+# 👨‍💻 Membres de l'equip
+
+Aquest projecte ha estat desenvolupat per:
+
+- **Eric Delgado**
+- **Darren Escosio**
+- **Oriol Jové**
+
+---
+
+# 📱 Funcionalitats principals
+
+## Client registrat
+
+- Login d’usuari
+- Recuperació de contrasenya
+- Edició del perfil d’usuari
+- Logout
+- Crear una reserva
+- Veure les reserves pròpies
+- Ordenar reserves per data d’inici
+- Veure el detall d’una reserva
+- Anul·lar una reserva abans que comenci
+
+## Client anònim
+
+- Registre d’usuari
+- Llistar vehicles disponibles
+- Veure el detall d’un vehicle
+- Ordenar vehicles per preu
+- Consultar disponibilitat de vehicles per rang de dates
+
+---
+
+# 🛠 Tecnologies utilitzades
+
+## Frontend
+- **Android Studio**
+- **Kotlin**
+- **Jetpack Compose**
+
+## Backend
+- **Spring Boot**
+- **API REST**
+
+## Base de dades
+- **MySQL**
+
+## Altres eines
+- **Git**
+- **Postman**
+- **Android Emulator**
+
+---
+
+# 🏗 Arquitectura del sistema
+
+El projecte està format per dues parts principals:
+
+- **Aplicació Android** que actua com a client.
+- **Backend desenvolupat amb Spring Boot** que exposa una API REST.
+- **Base de dades MySQL** per emmagatzemar la informació del sistema.
+
+L’aplicació Android es comunica amb el backend mitjançant peticions HTTP a l’API REST.
+
+## 📹 Demo del projecte
+
+[![Demo ODEVehicles]](https://drive.google.com/file/d/1oPlelCX7qnEJuIpr2u7UjJPx9S0Q25oX/view?usp=sharing)
