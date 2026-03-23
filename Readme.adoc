@@ -1,14 +1,14 @@
-# 🚗 Aplicació de Gestió de Vehicles i Reserves
+# 🚗 Aplicación de Gestión de Vehículos y Reservas
 
-Aplicació mòbil desenvolupada per gestionar la consulta de vehicles i la creació de reserves de manera senzilla mitjançant una aplicació Android connectada a un backend.
+Aplicación móvil desarrollada para gestionar la consulta de vehículos y la creación de reservas de forma sencilla mediante una aplicación Android conectada a un backend.
 
-L’aplicació permet als usuaris registrar-se, iniciar sessió, consultar vehicles disponibles i gestionar les seves reserves directament des del dispositiu mòbil.
+La aplicación permite a los usuarios registrarse, iniciar sesión, consultar vehículos disponibles y gestionar sus reservas directamente desde el dispositivo móvil.
 
 ---
 
-# 👨‍💻 Membres de l'equip
+# 👨‍💻 Miembros del equipo
 
-Aquest projecte ha estat desenvolupat per:
+Este proyecto ha sido desarrollado por:
 
 - **Eric Delgado**
 - **Darren Escosio**
@@ -16,31 +16,31 @@ Aquest projecte ha estat desenvolupat per:
 
 ---
 
-# 📱 Funcionalitats principals
+# 📱 Funcionalidades principales
 
-## Client registrat
+## Cliente registrado
 
-- Login d’usuari
-- Recuperació de contrasenya
-- Edició del perfil d’usuari
-- Logout
+- Inicio de sesión de usuario
+- Recuperación de contraseña
+- Edición del perfil de usuario
+- Cierre de sesión
 - Crear una reserva
-- Veure les reserves pròpies
-- Ordenar reserves per data d’inici
-- Veure el detall d’una reserva
-- Anul·lar una reserva abans que comenci
+- Ver las reservas propias
+- Ordenar reservas por fecha de inicio
+- Ver el detalle de una reserva
+- Anular una reserva antes de que comience
 
-## Client anònim
+## Cliente anónimo
 
-- Registre d’usuari
-- Llistar vehicles disponibles
-- Veure el detall d’un vehicle
-- Ordenar vehicles per preu
-- Consultar disponibilitat de vehicles per rang de dates
+- Registro de usuario
+- Listar vehículos disponibles
+- Ver el detalle de un vehículo
+- Ordenar vehículos por precio
+- Consultar disponibilidad de vehículos por rango de fechas
 
 ---
 
-# 🛠 Tecnologies utilitzades
+# 🛠 Tecnologías utilizadas
 
 ## Frontend
 - **Android Studio**
@@ -51,10 +51,10 @@ Aquest projecte ha estat desenvolupat per:
 - **Spring Boot**
 - **API REST**
 
-## Base de dades
+## Base de datos
 - **MySQL**
 
-## Altres eines
+## Otras herramientas
 - **Git**
 - **Postman**
 - **Android Emulator**
@@ -63,14 +63,14 @@ Aquest projecte ha estat desenvolupat per:
 
 # 🏗 Arquitectura del sistema
 
-El projecte està format per dues parts principals:
+El proyecto está formado por tres partes principales:
 
-- **Aplicació Android** que actua com a client.
-- **Backend desenvolupat amb Spring Boot** que exposa una API REST.
-- **Base de dades MySQL** per emmagatzemar la informació del sistema.
+- **Aplicación Android** que actúa como cliente.
+- **Backend desarrollado con Spring Boot** que expone una API REST.
+- **Base de datos MySQL** para almacenar la información del sistema.
 
-L’aplicació Android es comunica amb el backend mitjançant peticions HTTP a l’API REST.
+La aplicación Android se comunica con el backend mediante peticiones HTTP a la API REST.
 
-## 📹 Demo del projecte
+## 📹 Demo del proyecto
 
 [![Demo ODEVehicles]](https://drive.google.com/file/d/1oPlelCX7qnEJuIpr2u7UjJPx9S0Q25oX/view?usp=sharing)
