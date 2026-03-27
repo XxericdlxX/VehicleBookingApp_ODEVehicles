@@ -70,6 +70,6 @@ El proyecto está formado por tres partes principales:
 
 La aplicación Android se comunica con el backend mediante peticiones HTTP a la API REST.
 
-## 📹 Demo del proyecto
+## 📹 Video Demo del proyecto
 
 [![Demo ODEVehicles]](https://drive.google.com/file/d/1oPlelCX7qnEJuIpr2u7UjJPx9S0Q25oX/view?usp=sharing)
