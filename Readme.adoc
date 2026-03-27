@@ -43,7 +43,6 @@ Este proyecto ha sido desarrollado por:
 # 🛠 Tecnologías utilizadas
 
 ## Frontend
-- **Android Studio**
 - **Kotlin**
 - **Jetpack Compose**
 
